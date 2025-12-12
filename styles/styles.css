@@ -1437,4 +1437,46 @@ button:active {
   line-height: 1.4;
   color: #fff;            /* mantiene blanco */
   opacity: 0.9;           /* un poco más suave */
+
+}
+.logros-vocales {
+  text-align: center; /* Centra el título general de la sección */
+}
+
+.card-logro {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center; /* Centra todo el contenido dentro de cada tarjeta */
+}
+
+.icono-logro {
+  text-align: center; /* Centra el ícono */
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.card-logro h3 {
+  text-align: center; /* Centra el título */
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-logro p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.card-logro ul {
+  list-style: none;   /* Quita viñetas */
+  padding: 0;
+  margin: 10px 0;
+  text-align: center; /* Centra también los ítems de la lista */
+}
+
+.card-logro ul li {
+  margin-bottom: 8px;
 }
