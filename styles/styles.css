@@ -1480,3 +1480,42 @@ button:active {
 .card-logro ul li {
   margin-bottom: 8px;
 }
+.card-logro {
+  background-color: #000000; /* Fondo negro */
+  color: #f2f2f2;            /* Texto claro para contraste */
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;        /* Centra todo el contenido */
+}
+
+.icono-logro {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.card-logro h3 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card-logro p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.card-logro ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card-logro ul li {
+  margin-bottom: 8px;
+}
+
