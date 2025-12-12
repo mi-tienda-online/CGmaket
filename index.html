@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+    <body>
+  <header class="cabecera">
+    <div class="microfono-animado">
+      🎤
+      <span class="estrella">⭐</span>
+      <span class="estrella arcoiris">🌈</span>
+      <span class="estrella">✨</span>
+    </div>
+  </header>
+
+
+  <!-- Hero al principio -->
+<section class="hero">
+  <div class="hero-imagen">
+    <video class="hero-video" autoplay muted playsinline>
+      <source src="videos/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <audio id="audio-hero" autoplay loop muted>
+  <source src="audio/hero.mp3" type="audio/mpeg">
+</audio>
+
+<div style="text-align:center; margin-top:20px;">
+  <button onclick="activarAudio()">▶ Escuchar bolero</button>
+  <button onclick="pausarAudio()">⏸ Pausar</button>
+  <button onclick="detenerAudio()">⏹ Detener</button>
+</div>
+
+
+
+
+  <div class="hero-texto">
+    <div class="microfono-animado">
+      🎤
+      <span class="estrella">⭐</span>
+      <span class="estrella">✨</span>
+      <span class="estrella arcoiris">🌈</span>
+    </div>
+
+    <p class="pre-title">¿Te gustaría que tu voz emocionara como la de tus artistas favoritos?</p>
+
+    <h1>CANTA COMO LOS GRANDES</h1>
+
+    <p class="sub-title">Domina tu técnica vocal y conecta con tu audiencia como los intérpretes más grandes.</p>
+
+    <a href="#inscripcion" class="cta-button">¡Quiero aprender con Pamela!</a>
+    <div class="flecha-bajar">↓</div>
+  </div>
+</section>
+
+ <section class="logros-vocales">
+  <h2>🎤 Lo que vas a lograr</h2>
+  <div class="card-logro mitos">
+  <div class="icono-logro">🚀</div>
+  <h3>Romper mitos vocales</h3>
+  <p>
+    Muchos cantantes creen que cantar bien depende de tener un “don especial” o de forzar la voz. 
+    Aquí aprenderás a desmentir esos mitos y a confiar en técnicas reales que cuidan tu voz y potencian tu talento.
+  </p>
+  <ul class="detalle-logro">
+    <li><strong>Desbloqueo mental:</strong> Supera la idea de que cantar es solo para unos pocos privilegiados.</li>
+    <li><strong>Seguridad técnica:</strong> Comprueba que la potencia y afinación se logran con práctica, no con esfuerzo excesivo.</li>
+    <li><strong>Libertad artística:</strong> Al romper mitos, cantarás con confianza y autenticidad, sin miedo a equivocarte.</li>
+  </ul>
+  <p>
+    Romper mitos vocales es el paso final que te permitirá disfrutar del canto con libertad, 
+    sabiendo que tu voz puede crecer y brillar sin límites.
+  </p>
+</div>
+
+  <!-- Aquí sí va la card Fusionar tu voz -->
+  <div class="card-logro fusion">
+    <div class="icono-logro">🎤</div>
+    <h3>Fusionar tu voz</h3>
+    <p>La fusión vocal es la capacidad de unir tu voz de pecho y tu voz de cabeza en un solo flujo sonoro...</p>
+    <ul class="detalle-logro">
+      <li><strong>Transiciones suaves:</strong> Aprende a pasar de graves a agudos sin notar saltos bruscos.</li>
+      <li><strong>Uniformidad:</strong> Tu voz sonará equilibrada y consistente en cualquier registro.</li>
+      <li><strong>Flexibilidad:</strong> Podrás interpretar canciones exigentes con mayor control y confianza.</li>
+    </ul>
+    <p>Al dominar la fusión vocal, tu canto se vuelve más profesional y expresivo.</p>
+  </div>
+</section>
+  
+<section class="logros-vocales">
+
+  <!-- Romper mitos vocales -->
+  <div class="card-logro mitos">
+    <div class="icono-logro">🚀</div>
+    <h3>Romper mitos vocales</h3>
+    <p>Muchos cantantes creen que cantar bien depende de tener un “don especial” o de forzar la voz. Aquí aprenderás a desmentir esos mitos y a confiar en técnicas reales que cuidan tu voz y potencian tu talento.</p>
+    <ul class="detalle-logro">
+      <li><strong>Desbloqueo mental:</strong> Supera la idea de que cantar es solo para unos pocos privilegiados.</li>
+      <li><strong>Seguridad técnica:</strong> Comprueba que la potencia y afinación se logran con práctica, no con esfuerzo excesivo.</li>
+      <li><strong>Libertad artística:</strong> Al romper mitos, cantarás con confianza y autenticidad, sin miedo a equivocarte.</li>
+    </ul>
+    <p>Romper mitos vocales es el paso final que te permitirá disfrutar del canto con libertad, sabiendo que tu voz puede crecer y brillar sin límites.</p>
+  </div>
+
+  <!-- Fusionar tu voz -->
+  <div class="card-logro fusion">
+    <div class="icono-logro">🎤</div>
+    <h3>Fusionar tu voz</h3>
+    <p>La fusión vocal es la capacidad de unir tu voz de pecho y tu voz de cabeza en un solo flujo sonoro...</p>
+    <ul class="detalle-logro">
+      <li><strong>Transiciones suaves:</strong> Aprende a pasar de graves a agudos sin notar saltos bruscos.</li>
+      <li><strong>Uniformidad:</strong> Tu voz sonará equilibrada y consistente en cualquier registro.</li>
+      <li><strong>Flexibilidad:</strong> Podrás interpretar canciones exigentes con mayor control y confianza.</li>
+    </ul>
+    <p>Al dominar la fusión vocal, tu canto se vuelve más profesional y expresivo.</p>
+  </div>
+
+  <!-- Interpretar con emoción -->
+  <div class="card-logro emocion">
+    <div class="icono-logro">🎵</div>
+    <h3>Interpretar con emoción</h3>
+    <p>Cantar no es solo emitir notas, es transmitir sentimientos. La interpretación emocional conecta tu voz con el corazón del público y convierte cada canción en una experiencia única.</p>
+    <ul class="detalle-logro">
+      <li><strong>Conexión auténtica:</strong> Aprende a expresar alegría, tristeza o pasión en cada frase musical.</li>
+      <li><strong>Impacto escénico:</strong> Tu voz se convierte en un puente entre tu historia y la audiencia.</li>
+      <li><strong>Memorabilidad:</strong> Las canciones interpretadas con emoción permanecen en la mente y el corazón de quienes escuchan.</li>
+      <li><strong>Matices vocales:</strong> Descubre cómo usar variaciones de tono y volumen para dar vida a tu interpretación.</li>
+    </ul>
+    <p>Descubrirás cómo usar matices vocales, gestos y energía para que cada canción sea inolvidable. La emoción es lo que transforma una buena técnica en un arte capaz de conmover.</p>
+  </div>
+
+  <!-- Confianza escénica -->
+  <!-- Confianza escénica -->
+<div class="card-logro confianza">
+  <div class="icono-logro">💪</div>
+  <h3>Confianza escénica</h3>
+  <p>La confianza escénica es la capacidad de transmitir seguridad y autenticidad frente al público. No se trata solo de cantar bien, sino de conectar emocionalmente y vencer el miedo escénico.</p>
+  <ul class="detalle-logro">
+    <li><strong>Superar el miedo:</strong> Aprende técnicas para controlar nervios y transformar la ansiedad en energía positiva.</li>
+    <li><strong>Presencia auténtica:</strong> Descubre cómo tu postura, mirada y gestos fortalecen tu interpretación.</li>
+    <li><strong>Transmisión emocional:</strong> Conecta con tu audiencia mostrando vulnerabilidad y fuerza al mismo tiempo.</li>
+  </ul>
+  <p>Al dominar la confianza escénica, tu voz y tu cuerpo se convierten en un canal de emociones genuinas. El escenario deja de ser un reto y se transforma en tu espacio de expresión.</p>
+</div>
+
+<!-- Técnicas avanzadas -->
+<div class="card-logro tecnicas">
+  <div class="icono-logro">🔥</div>
+  <h3>Técnicas avanzadas</h3>
+  <p>Las técnicas avanzadas como el Belting y el Twang son recursos vocales que te permiten cantar con potencia, claridad y estilo profesional. Aprenderás a aplicarlas de forma segura, evitando tensiones y cuidando tus cuerdas vocales.</p>
+  <ul class="detalle-logro">
+    <li><strong>Belting:</strong> Canta notas altas con fuerza y resonancia, manteniendo la energía de la voz de pecho.</li>
+    <li><strong>Twang:</strong> Añade brillo y proyección a tu voz, logrando un sonido más definido y penetrante.</li>
+    <li><strong>Versatilidad:</strong> Integra estas técnicas en distintos géneros musicales para ampliar tu estilo interpretativo.</li>
+  </ul>
+  <p>Dominar estas técnicas te dará un control vocal avanzado, permitiéndote destacar en escenarios y grabaciones con una voz poderosa y expresiva.</p>
+</div>
+
+<!-- Ganar matices vocales -->
+<div class="card-logro matices">
+  <div class="icono-logro">✨</div>
+  <h3>Ganar matices vocales</h3>
+  <p>Los matices vocales son los detalles que hacen que tu voz sea única y expresiva. Aprenderás a controlar el tono, el volumen y la intensidad para transmitir emociones auténticas en cada interpretación.</p>
+  <ul class="detalle-logro">
+    <li><strong>Variedad expresiva:</strong> Descubre cómo alternar entre suavidad y potencia para enriquecer tu canto.</li>
+    <li><strong>Color vocal:</strong> Aprende a dar diferentes “colores” a tu voz según el estilo musical.</li>
+    <li><strong>Impacto emocional:</strong> Usa los matices para conectar más profundamente con tu audiencia.</li>
+  </ul>
+  <p>Dominar los matices vocales te permitirá transformar una interpretación correcta en una experiencia artística memorable, logrando que tu voz sea reconocida por su personalidad y sensibilidad.</p>
+</div>
+
+<!-- Mejorar tu afinación -->
+<div class="card-logro afinacion">
+  <div class="icono-logro">🎶</div>
+  <h3>Mejorar tu afinación</h3>
+  <p>La afinación es la capacidad de cantar las notas con precisión y estabilidad. Aprenderás a reconocer los tonos, corregir desviaciones y mantener tu voz en perfecta sintonía con la música.</p>
+  <ul class="detalle-logro">
+    <li><strong>Entrenamiento auditivo:</strong> Desarrolla tu oído para identificar notas y acordes con claridad.</li>
+    <li><strong>Precisión vocal:</strong> Canta cada nota en su frecuencia exacta, evitando desafinaciones.</li>
+    <li><strong>Confianza musical:</strong> Al dominar la afinación, podrás cantar acompañado de instrumentos sin perder el tono.</li>
+  </ul>
+  <p>Dominar la afinación te permitirá cantar con seguridad en cualquier estilo musical, transmitiendo profesionalismo y emoción en cada interpretación.</p>
+</div>
+
+<!-- Extender tu registro -->
+<div class="card-logro registro">
+  <div class="icono-logro">🌟</div>
+  <h3>Extender tu registro</h3>
+  <p>El registro vocal es el rango de notas que puedes cantar, desde los graves más profundos hasta los agudos más brillantes. Aprenderás a ampliar tu registro de manera segura, sin tensiones y con control absoluto.</p>
+  <ul class="detalle-logro">
+    <li><strong>Mayor alcance:</strong> Descubre cómo cantar notas que antes parecían imposibles.</li>
+    <li><strong>Versatilidad:</strong> Adapta tu voz a distintos géneros musicales con un rango más amplio.</li>
+    <li><strong>Seguridad:</strong> Aprende técnicas para alcanzar agudos y graves sin forzar tus cuerdas vocales.</li>
+  </ul>
+  <p>Extender tu registro te permitirá interpretar canciones con libertad, sorprender a tu audiencia y sentir que tu voz tiene un poder ilimitado. Es el paso que transforma tu canto en una experiencia completa.</p>
+</div>
+  <!-- Aquí seguirán las demás cards: respiración, postura, interpretación, etc. -->
+</section>
+<section class="bloque-visual-vocal">
+  <div class="contenedor-vocal">
+    <img src="img/woman-pass.png" alt="Mujer cantando apasionadamente" class="imagen-vocal">
+    <div class="texto-vocal">
+      <h2>🎁 Oferta Especial</h2>
+      <p>Inscríbete ahora y aprovecha esta promoción única.</p>
+      <a href="https://go.hotmart.com/Q102015706I?ap=5bde" 
+   class="btn-promo" 
+   target="_blank">
+   ¡Quiero aprovechar la promoción!
+</a>
+      
+      
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonios">
+  <h2>Lo que dicen nuestros alumnos</h2>
+  <div class="testi-cards">
+    <div class="testi-card">
+      <img src="img/ana-g.png" alt="Ana G.">
+      <p>“La MasterClass transformó mi manera de cantar. Ahora disfruto cada nota con confianza.”</p>
+      <h4>Ana G.</h4>
+    </div>
+    <div class="testi-card">
+      <img src="img/luis-r.png" alt="Luis R.">
+      <p>“Superé el miedo escénico y afiné mi voz. Pamela me enseñó a enamorarme de mi propia voz.”</p>
+      <h4>Luis R.</h4>
+    </div>
+    <div class="testi-card">
+    <img src="img/mariana-p.png" alt="Mariana P.">
+      <p>“Nunca pensé que podría cantar bien. Esta clase me demostró que todos tenemos una voz única.”</p>
+      <h4>Mariana P.</h4>
+    </div>
+  </div>
+</section>
+<section class="promo-tiempo-limitado">
+  <h2>🎁 Oferta Especial</h2>
+  <p>Inscríbete ahora y aprovecha esta promoción única.</p>
+
+  <a href="https://go.hotmart.com/Q102015706I?ap=5bde" 
+     class="btn-promo" 
+     target="_blank">
+     ¡Quiero aprovechar la promoción!
+  </a>
+</section>
+
+  <!-- Precio real -->
+<section class="card-oferta">
+  <div class="etiqueta-popular">Popular</div>
+  <h2>Oferta especial</h2>
+  <div class="precio">$1568.32 MXN</div>
+  <p class="beneficio">Acceso completo a todos los contenidos</p>
+  <p class="cuotas">o 12x <strong>$157.46 MXN</strong> con tarjeta de crédito</p>
+
+  <!-- Botón principal con tu enlace -->
+  <a href="https://go.hotmart.com/Q102015706I?ap=5bde" class="boton-oferta" target="_blank">
+    Inscribirme ahora →
+  </a>
+
+  <!-- Mensaje adicional debajo del botón -->
+<p class="texto-moneda">
+  Para ver el precio en tu moneda local, sólo da clic al link de abajo<br>
+  👇👇👇<br>
+  <a href="https://go.hotmart.com/Q102015706I?ap=5bde" target="_blank" class="link-moneda text-effect">
+    VER EL PRECIO EN MI MONEDA LOCAL!
+  </a>
+</p>
+</section>
+<div id="contador-dinamico">
+  <div class="bloque-tiempo"><span id="horas">00</span> Horas</div>
+  <div class="bloque-tiempo"><span id="minutos">00</span> Minutos</div>
+  <div class="bloque-tiempo"><span id="segundos">00</span> Segundos</div>
+</div>
+
+<!-- Botón con tu link de afiliado -->
+  <section class="faq-vocal">
+  <h2>❓ Preguntas frecuentes</h2>
+  <div class="faq-item">
+    <h3>¿Necesito experiencia previa para tomar esta MasterClass?</h3>
+    <p>No. Está diseñada para que cualquier persona pueda mejorar su técnica vocal desde cero.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Cuánto tiempo tengo acceso al curso?</h3>
+    <p>Acceso ilimitado. Puedes ver las clases cuando quieras, a tu ritmo y desde cualquier dispositivo.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Qué pasa si no me gusta el curso?</h3>
+    <p>Tienes garantía de satisfacción. Si no conectas con el contenido, puedes solicitar reembolso.</p>
+  </div>
+  <div class="faq-item">
+    <h3>¿Puedo pagar en cuotas?</h3>
+    <p>Sí. Puedes pagar en 12 cuotas de $157.46 MXN con tarjeta de crédito.</p>
+  </div>
+</section>
+</section>
+
+<!-- Otros bloques de tu landing -->
+
+<!-- Scripts -->
+<!-- Scripts -->
+<script src="script/contador.js"></script>
+<script src="script/faq.js"></script>
+<script src="script/animaciones.js"></script>
+<script src="script/audio.js"></script>
+</body>
+</html>
+<section class="seccion-final">
+  <h2>¿Listo Para Transformar Tu Voz?</h2>
+  <p class="subtitulo-final">
+    Únete a miles de estudiantes que ya están cantando como siempre soñaron
+  </p>
+  <div class="btn-container">
+    <a href="https://go.hotmart.com/Q102015706I?ap=5bde" class="btn-promo" target="_blank">
+      Comienza Tu Viaje Musical Ahora
+    </a>
+  </div>
+  <p class="garantia">Si no conectas con el contenido, puedes solicitar reembolso.</p>
+</section>
+
+<footer class="footer">
+  <p>Copyright ©2024 CG MAKET</p>
+  <p>Todos los derechos reservados.</p>
+</footer>
+<
+
+</body>
+</html>
